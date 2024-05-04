@@ -1,0 +1,41 @@
+.websitesList {
+  height: auto;
+  overflow-y: auto;
+
+  margin-top: 10px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  /* background-color: red; */
+}
+
+.webRow {
+  display: flex !important ;
+  flex-direction: row !important ;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important ;
+
+  /* background-color: red; */
+}
+
+.removeButton {
+  height: 50%;
+}
+
+.tabOptions {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+
+  justify-content: center;
+}
+
+.blacklistHandling {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
